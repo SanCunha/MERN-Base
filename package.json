@@ -1,5 +1,5 @@
 {
-  "name": "the-mind-browser-game",
+  "name": "mern-base",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,10 +7,12 @@
     "server": "cd server && npm run dev",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "MERN"
+  ],
+  "author": "San Cunha",
   "license": "ISC",
-  "description": "",
+  "description": "A base code to start a MERN project.",
   "devDependencies": {
     "concurrently": "^8.2.2"
   }
